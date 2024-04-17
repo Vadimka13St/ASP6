@@ -1,0 +1,8 @@
+﻿@model ASP6.ViewModels.OrderDetailModel
+
+<h2>Your Order:</h2>
+
+@foreach (var product in Model.Products)
+{
+    <p>Product: @product.Name </p>
+}
